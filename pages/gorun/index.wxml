@@ -1,0 +1,16 @@
+<!--pages/gorun/index.wxml-->
+<el-audio  isPause="{{isPause}}"></el-audio>
+<view class="oneyuan" >
+
+    <image class="logo" src="/image/index/index_5.png"></image>
+    <image class="xi" src="/image/index/index_22.png"></image>
+<view>
+    <view class="run">
+
+<!--        <image style="height: 60%;width: 100%" src="/image/oneyuan/game4_3-min.png"></image>-->
+        <image bindtap="payRun" data-index="2" id="run" src="/image/run/game4_10.png"></image>
+        <text style="display: block;width: 100%;text-align: center;font-weight: bolder;font-size:55rpx">当前您的步数: <text style="color: #c8161d;font-weight: bolder">{{step}}</text></text>
+        <text style="display: block;width: 100%;text-align: center;font-size: 22rpx;color: #909399">每天仅可捐献一次，您确认现在捐赠吗？</text>
+    </view>
+</view>
+</view>

@@ -1,0 +1,25 @@
+<!--pages/oneyuan/index.wxml-->
+<view class="oneyuan" >
+ <image class="logo" src="/image/index/index_5.png"></image>
+ <image class="xi" src="/image/index/index_22.png"></image>
+
+ <view style="display: {{id==1?'':'none'}}">
+ <view style="position: absolute;width: 80%;height: 400rpx; top: 30%;left: calc(50% - 40%)">
+  <image style="width: 100%;height: 85%" src="/image/oneyuan/game3_3-min.png"></image>
+ <image bindtap="pay" class="sub" src="/image/oneyuan/game3_1.png"></image>
+  <text style="font-size: 28rpx;color: #606266">面膜以现场实物为准</text>
+ </view>
+
+ </view>
+
+ <view style="display: {{id==2?'':'none'}}">
+  <view class="run">
+   <image style="height: 60%;width: 100%" src="/image/oneyuan/game4_3-min.png"></image>
+  <image bindtap="payRun" data-index="2" id="run" src="/image/run/game4_1.png"></image>
+<!--   <text style="display: block;width: 100%;text-align: center;font-weight: bolder">当前您的步数: <text style="color: #c8161d;font-weight: bolder">{{step}}</text></text>-->
+  </view>
+ </view>
+</view>
+
+
+<el-audio  isPause="{{isPause}}"></el-audio>

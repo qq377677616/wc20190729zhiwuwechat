@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<!--首页-->
+<el-audio  isPause="{{isPause}}"></el-audio>
+<view
+
+        class="home ">
+  <image
+          wx:if="{{isUser}}"
+          class='participate'
+          src='/image/index/index_1.png'
+          bindtap="participate"></image>
+  <image class="title" src="/image/index/index_5.png"></image>
+  <image class="nai" src="/image/index/index_4.png"></image>
+  <image class="xi" src="/image/index/index_22.png"></image>
+  <button wx:if="{{!isUser}}" class='participate'  plain="true" open-type="getUserInfo" bindgetuserinfo="_getUserInfo" ></button>
+</view>
+
+<!--表单视图-->
+
+<!--<van-popup show="{{ show }}" close-on-click-overlay="false" custom-style="background: rgba(0,0,0,0)">-->
+<!--  <button style="width: 100%;" type="primary" open-type="getUserInfo" bindgetuserinfo="_getUserInfo">授权登录</button>-->
+<!--</van-popup>-->
+
+
+
+

@@ -1,0 +1,46 @@
+<view class="home-form">
+    <image class="title" src="/image/form/game_2.png"></image>
+    <image class="xi" src="/image/index/index_22.png"></image>
+    <view class="info">
+        <text style="display: block;font-weight: 600;width:100%;text-align: center;">报名信息</text>
+        <form bindsubmit="formSubmit">
+            <view style="margin-top: 30rpx">
+                <span>姓名:</span>
+                <input class="sel" maxlength="5" name="inputName"></input>
+            </view>
+            <view style="margin-top: 30rpx">
+                <span>电话:</span>
+                <input class="sel" type="number" maxlength="11" name="inputPhone"></input>
+            </view>
+            <view style="margin-top: 30rpx">
+                <span>生日:</span>
+                <picker name="inputSr" class="sel" mode="date" value="{{date}}"  bindchange="bindDateChange">
+                    <view class="picker">
+                        {{date}}
+                    </view>
+                </picker>
+            </view>
+            <view style="margin-top: 30rpx">
+                <span>地区:</span>
+                <picker name="inputArea" class="sel" mode="multiSelector" bindchange="bindMultiPickerChange"
+                        bindcolumnchange="bindMultiPickerColumnChange" value="{{multiIndex}}" range="{{multiArray}}">
+                    <view class="picker">
+                        {{multiArray[0][multiIndex[0]]}}{{multiArray[0][multiIndex[0]] === multiArray[1][multiIndex[1]]?'':'-'+ multiArray[1][multiIndex[1]]}}
+                    </view>
+                </picker>
+            </view>
+            <button
+                    form-type="submit"
+                    class="form-btn"></button>
+        </form>
+
+
+        <view class="section">
+
+        </view>
+        <!--sub-->
+
+        <!--  <image style="width: 100%;height: 100%" src="/image/form/game_12.png"></image>-->
+    </view>
+</view>
+<el-audio isPause="{{isPause}}"></el-audio>

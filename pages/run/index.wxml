@@ -1,0 +1,16 @@
+<!--pages/run/index.wxml-->
+<view class="run">
+    <image class="logo" src="/image/run/game5_5.png"></image>
+    <image class="xi" src="/image/index/index_22.png"></image>
+
+    <view class="cantent">
+    <image style="flex: 100%;height: 60%;margin-top: 10rpx" src="/image/run/game5_1.png"></image>
+<!--        <view style="flex: 100%;">-->
+<!--            <text>非常感谢您的爱心助力\n</text>-->
+<!--            <text style="font-size: 22rpx">活动结束，我们会在植物医生微博、微信公众号，同步宣布最终的公益基金</text>-->
+<!--        </view>-->
+    <image bindtap="go" style="flex: 70%;padding-left: 20rpx"  src="/image/run/game5_2.png"></image>
+    </view>
+</view>
+
+<el-audio  isPause="{{isPause}}"></el-audio>

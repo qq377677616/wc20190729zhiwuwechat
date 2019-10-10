@@ -1,0 +1,47 @@
+/* component/audio/index.wxss */
+
+
+/*.btns {*/
+/*    background: darkgreen;*/
+/*    position: fixed;*/
+/*    right: 0.3rem;*/
+/*    top: 0;*/
+/*    padding: .3rem;*/
+/*    z-index: 999;*/
+/*    !*-webkit-tap-highlight-color: rgba(0,0,0,0);*!*/
+/*    !*-webkit-tap-highlight-color:transparent;*!*/
+/*    transition: all .8s;*/
+/*}*/
+
+.btn-play{
+    animation: rotate 2s linear infinite;
+}
+
+/*.btns img {*/
+/*    box-shadow: 0 0 20px -2px #FFB8C4;*/
+/*    border-radius: 50%;*/
+/*}*/
+
+/*.btns, .btns img {*/
+/*    width: .5rem;*/
+/*    height: .5rem;*/
+/*}*/
+
+/*.right-left-leave-active {*/
+/*    right: -2rem;*/
+/*    opacity: 0;*/
+/*}*/
+
+/*.right-left-enter {*/
+/*    right: -2rem;*/
+/*    opacity: 0;*/
+/*}*/
+
+@keyframes rotate {
+    from {
+        transform: rotate(0)
+    }
+    to {
+        transform: rotate(360deg)
+    }
+}

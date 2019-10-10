@@ -1,0 +1,9 @@
+<!--component/audio/index.wxml-->
+<!--<view id="musio_btn" class="btns" v-show="isPlay > 0" >-->
+<!--    <image src="/image/page2_7_btn.png"  class="btn-play" v-show="isPlay == 1"/>-->
+<!--&lt;!&ndash;    <image src="/image/page2_8_btn.png" v-show="isPlay == 2"/>&ndash;&gt;-->
+<!--</view>-->
+<view style="position: fixed;right: 40rpx;top: 40rpx;width: 50rpx;height: 50rpx;z-index: 9999" bindtap="controls">
+    <image src="/image/page2_7_btn.png" class="btn-play" style="width: 100%;height: 100%" hidden="{{isPause}}"/>
+        <image src="/image/page2_8_btn.png" style="width: 100%;height: 100%" hidden="{{!isPause}}"/>
+</view>

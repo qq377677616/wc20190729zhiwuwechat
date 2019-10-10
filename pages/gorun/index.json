@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "el-audio": "/component/audio/index"
+  }
+}

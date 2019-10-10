@@ -1,0 +1,90 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false,
+		"checkInvalidKey": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.6.6",
+	"appid": "wx8edd23674a566ca0",
+	"projectname": "zhiwudr",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 5,
+			"list": [
+				{
+					"id": -1,
+					"name": "oneyuan",
+					"pathName": "pages/oneyuan/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "run",
+					"pathName": "pages/run/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "audio",
+					"pathName": "component/audio/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 3,
+					"name": "audio1",
+					"pathName": "pages/run/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 4,
+					"name": "asd",
+					"pathName": "pages/gorun/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "表单",
+					"pathName": "pages/form/index",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,13 @@
+<!--选择视图-->
+<view class="home-jump">
+  <view class="title">
+  <image id="introduction"  src="/image/jump/game2_3-min.png"></image>
+    <view class="jump-btn">
+      <image src="/image/jump/game2_1.png" data-index="1" bindtap="goTo"></image>
+      <image src="/image/jump/game2_2.png" data-index="2" bindtap="goTo" style="    margin-left: 40rpx;"></image>
+    </view>
+  </view>
+  <image class="xi" src="/image/index/index_22.png"></image>
+
+</view>
+<el-audio  isPause="{{isPause}}"></el-audio>
